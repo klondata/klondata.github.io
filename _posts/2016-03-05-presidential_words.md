@@ -18,24 +18,9 @@ Here's the code:
 
 ```r
 library(tm)
-```
-
-```
-## Loading required package: NLP
-```
-
-```r
 library(SnowballC)
 library(wordcloud)
-```
-
-```
-## Loading required package: RColorBrewer
-```
-
-```r
 library(RColorBrewer)
-
 
 ref_matrix = function (date){
 
