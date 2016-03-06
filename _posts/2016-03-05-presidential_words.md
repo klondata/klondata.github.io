@@ -131,7 +131,7 @@ barplot(m, main="Number of times Cruz/Rubio mention Trump vs each other", beside
         args.legend=list(x="topleft", cex=0.75), cex.names=0.75)
 ```
 
-![plot of chunk unnamed-chunk-1]({{site.url}}/_figures/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](/images/unnamed-chunk-1-1.png)
 
 We can see that at the beginning of the race, the candidates really didn't refer to each other much at all.
 
@@ -275,7 +275,7 @@ freq = dtm["TRUMP", l$TRUMP]
 wordcloud(l$TRUMP, as.vector(freq), colors=brewer.pal(9,"Blues"))
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6](/images/unnamed-chunk-6-1.png)
 
 ##### Cruz:
 
@@ -285,7 +285,7 @@ freq = dtm["CRUZ", l$CRUZ]
 wordcloud(l$CRUZ, as.vector(freq), colors=brewer.pal(9,"Greens"))
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-7](/images/unnamed-chunk-7-1.png)
 
 ##### Rubio:
 
@@ -295,7 +295,7 @@ freq = dtm["RUBIO", l$RUBIO]
 wordcloud(l$RUBIO, as.vector(freq), colors=brewer.pal(9,"Oranges"))
 ```
 
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
+![plot of chunk unnamed-chunk-8](/images/unnamed-chunk-8-1.png)
 
 
 ### *For each candidate, what is the average word length ?*
